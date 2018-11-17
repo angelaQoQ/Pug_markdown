@@ -1,5 +1,6 @@
-arttemplate
+﻿arttemplate
 1 引入template.js文件
 2 准备模板和数据(模板-script标签type不能是javascript,必须要有id , 数据必须是对象)
 3 调用template方法,  template(模板id , 对象参数) 会返回一个html结构的字符串
 4 把生成的结果放到页面上
+解释
