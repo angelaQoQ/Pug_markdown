@@ -1,0 +1,19 @@
+doctype
+html
+  head
+    style.
+      #box{
+        width:100px;
+        height:100px;
+        background:green;
+      }
+  body
+    //- 不显示
+    // 显示
+    div#box
+      include part.pug
+      span 你<strong>们</strong>好
+        img(src="01.png" class="liuliuliu")
+    
+    script.
+      console.log(666);

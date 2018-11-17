@@ -1,0 +1,21 @@
+//- 需求: 给页面上的一按钮绑定点击事件,弹窗提示123
+html
+  header
+    style.
+      #btn{
+        width:100px;
+        height:100px;
+        background:pink;
+      }
+    //- 引入vue文件
+    script(src="./vue.js")
+  body
+    #app
+      //- 在按钮中绑定事件
+      button#btn(@click="alert('123!')") 按钮
+    //-js
+    script.
+      var vm = new Vue({
+        el:'#app'
+      })
+    
